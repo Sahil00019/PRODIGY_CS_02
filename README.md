@@ -29,13 +29,20 @@ The Image Encryption and Decryption Tool is a Python application created to prot
 ### EXAMPLE USAGE
 
 #### **Encrypting an Image**
-1. **Input**:
-   - Image path: `C:\Users\YourName\Pictures\image.png`
-   - Key: `123`
-2. **Output**: The encrypted image is saved as `encrypted_image.png`.
+```
+1.Input:
+Image path: C:\Users\YourName\Pictures\image.png
+Key: 123
 
+2.Output:
+The encrypted image is saved as : encrypted_image.png
+```
 #### **Decrypting an Image**
-1. **Input**:
-   - Image path: `encrypted_image.png`
-   - Key: `123` (the same key used for encryption)
-2. **Output**: The decrypted image is saved as `decrypted_image.png`.
+```
+1.Input:
+Image path: encrypted_image.png
+Key: 123 (the same key used for encryption)
+
+2.Output: 
+The decrypted image is saved as : decrypted_image.png
+```
